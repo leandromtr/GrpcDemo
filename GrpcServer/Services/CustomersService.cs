@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace GrpcServer.Services
 {
-    public class CustomerService : Customer.CustomerBase
+    public class CustomersService : Customer.CustomerBase
     {
-        private readonly ILogger<CustomerService> _logger;
-        public CustomerService(ILogger<CustomerService> logger)
+        private readonly ILogger<CustomersService> _logger;
+        public CustomersService(ILogger<CustomersService> logger)
         {
             _logger = logger;
         }
@@ -21,18 +21,18 @@ namespace GrpcServer.Services
 
             if (request.UserId == 1)
             {
-                output.FirstName = "Jamie";
-                output.LastName = "Smith";
+                output.FirstName = "Leandro";
+                output.LastName = "Reis";
             }
             else if (request.UserId == 2)
             {
-                output.FirstName = "Jane";
-                output.LastName = "Doe";
+                output.FirstName = "Lucas";
+                output.LastName = "Souza";
             }
             else
             {
-                output.FirstName = "Greg";
-                output.LastName = "Thomas";
+                output.FirstName = "Teteus";
+                output.LastName = "Reis";
             }
 
             return Task.FromResult(output);
