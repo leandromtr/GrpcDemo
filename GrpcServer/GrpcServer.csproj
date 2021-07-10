@@ -6,13 +6,15 @@
 
   <ItemGroup>
     <None Remove="Protos\customers.proto" />
+    <None Remove="Protos\Example2\enums.proto" />
     <None Remove="Protos\MeterReader.proto" />
   </ItemGroup>
 
   <ItemGroup>
-    <Protobuf Include="Protos\TimCorey\customers.proto" GrpcServices="Server" />
-    <Protobuf Include="Protos\TimCorey\greet.proto" GrpcServices="Server" />
-    <Protobuf Include="Protos\MeterReader.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\Example1\customers.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\Example1\greet.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\Example2\enums.proto" GrpcServices="None" />
+    <Protobuf Include="Protos\Example2\MeterReader.proto" GrpcServices="Server" />
   </ItemGroup>
 
   <ItemGroup>
