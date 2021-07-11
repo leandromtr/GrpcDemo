@@ -1,4 +1,5 @@
 ﻿using Grpc.Core;
+using MeterReaderWeb.Data;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -28,10 +29,10 @@ namespace MeterReaderWeb.Services
         //        try
         //        {
 
-        //        foreach(var r in request.Reading)
-        //        {
+        //            foreach (var r in request.Reading)
+        //            {
 
-        //        }
+        //            }
         //        }
         //        catch (Exception)
         //        {
