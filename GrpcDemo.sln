@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Notes.txt = Notes.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example1", "Example1", "{0FD84440-22DE-4157-AE74-0605ECD88934}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example2", "Example2", "{9D826AE0-44E7-4F56-9C2C-A2251147B1FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5802774-23C8-412E-96BA-2E1005CA4030} = {0FD84440-22DE-4157-AE74-0605ECD88934}
+		{0FFDDF75-774B-4F5B-B270-833E3035D1AE} = {0FD84440-22DE-4157-AE74-0605ECD88934}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA49BF1F-3BA3-4817-9081-E39C855DA2D1}

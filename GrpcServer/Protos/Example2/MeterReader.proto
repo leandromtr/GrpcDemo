@@ -1,12 +1,12 @@
 syntax = "proto3";
 
-option csharp_namespace = "MeterReader.Services";
+option csharp_namespace = "GrpcServer.Services.Example2";
 
 import "Protos/Example2/enums.proto";
 import "google/protobuf/timestamp.proto";
 
 service MeterReadingService{
-	rpc AddReading (ReadingMessage) returns (StatusMessage);
+	rpc AddReading (ReadingPacket) returns (StatusMessage);
 }
 
 message ReadingPacket{
@@ -25,5 +25,5 @@ message ReadingMessage {
 
 message StatusMessage{
 	string message = 1;
-	bool success = 2;
+	ReadingStatus success = 2;
 }

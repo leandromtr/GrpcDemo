@@ -48,25 +48,25 @@ namespace GrpcServer.Services
             {
                 new CustomerModel
                 {
-                    FirstName = "Tim",
-                    LastName = "Corey",
-                    EmailAddress = "tim@iamtimcorey.com",
+                    FirstName = "Leandro",
+                    LastName = "Reis",
+                    EmailAddress = "lmtr@gmail.com",
                     Age = 41,
                     IsAlive = true
                 },
                 new CustomerModel
                 {
-                    FirstName = "Sue",
-                    LastName = "Storm",
-                    EmailAddress = "sue@stormy.net",
+                    FirstName = "Lucas",
+                    LastName = "Souza",
+                    EmailAddress = "lucas@xpto.net",
                     Age = 28,
                     IsAlive = false
                 },
                 new CustomerModel
                 {
-                    FirstName = "Bilbo",
-                    LastName = "Baggins",
-                    EmailAddress = "bilbo@middleearth.net",
+                    FirstName = "Teteus",
+                    LastName = "Reis",
+                    EmailAddress = "teteus@hotmail.com",
                     Age = 117,
                     IsAlive = false
                 },
