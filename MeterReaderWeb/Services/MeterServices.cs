@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GrpcServer.Services.Example2
+namespace MeterReaderWeb.Services
 {
     public class MeterServices : MeterReadingService.MeterReadingServiceBase
     {

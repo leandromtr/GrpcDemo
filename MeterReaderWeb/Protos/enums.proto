@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option csharp_namespace = "GrpcServer.Services.Example2";
+option csharp_namespace = "MeterReaderWeb.Services";
 
 
 enum ReadingStatus {
