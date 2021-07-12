@@ -16,13 +16,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example1", "Example1", "{0F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example2", "Example2", "{9D826AE0-44E7-4F56-9C2C-A2251147B1FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterReaderWeb", "MeterReaderWeb\MeterReaderWeb.csproj", "{54540B2C-293D-422F-AFA5-BA72DACB4AE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeterReaderWeb", "MeterReaderWeb\MeterReaderWeb.csproj", "{54540B2C-293D-422F-AFA5-BA72DACB4AE1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{2E9820B6-4A73-4520-924C-B8694E6B0A92}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{4603698D-AF0C-47B6-BC64-2A9052AB4156}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeterReaderLib", "MeterReaderLib\MeterReaderLib.csproj", "{83540945-0C03-4962-BAA8-C383C3067373}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterReaderClient", "MeterReaderClient\MeterReaderClient.csproj", "{0E1E7E9E-C51B-4940-9EF1-01B981419D99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +48,10 @@ Global
 		{83540945-0C03-4962-BAA8-C383C3067373}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83540945-0C03-4962-BAA8-C383C3067373}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83540945-0C03-4962-BAA8-C383C3067373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E1E7E9E-C51B-4940-9EF1-01B981419D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E1E7E9E-C51B-4940-9EF1-01B981419D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E1E7E9E-C51B-4940-9EF1-01B981419D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E1E7E9E-C51B-4940-9EF1-01B981419D99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{2E9820B6-4A73-4520-924C-B8694E6B0A92} = {9D826AE0-44E7-4F56-9C2C-A2251147B1FD}
 		{4603698D-AF0C-47B6-BC64-2A9052AB4156} = {9D826AE0-44E7-4F56-9C2C-A2251147B1FD}
 		{83540945-0C03-4962-BAA8-C383C3067373} = {2E9820B6-4A73-4520-924C-B8694E6B0A92}
+		{0E1E7E9E-C51B-4940-9EF1-01B981419D99} = {4603698D-AF0C-47B6-BC64-2A9052AB4156}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA49BF1F-3BA3-4817-9081-E39C855DA2D1}
