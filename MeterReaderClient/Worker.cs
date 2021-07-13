@@ -16,15 +16,14 @@ namespace MeterReaderClient
     {
         private readonly ILogger<Worker> _logger;
         private readonly IConfiguration _config;
-        //private readonly ReadingFactory _factory;
+        private readonly ReadingFactory _factory;
         private MeterReadingService.MeterReadingServiceClient _client = null;
 
-        //public Worker(ILogger<Worker> logger, IConfiguration config, ReadingFactory factory)
-        public Worker(ILogger<Worker> logger, IConfiguration config)
+        public Worker(ILogger<Worker> logger, IConfiguration config, ReadingFactory factory)
         {
             _logger = logger;
             _config = config;
-            //_factory = factory;
+            _factory = factory;
         }
 
         protected MeterReadingService.MeterReadingServiceClient Client
@@ -55,10 +54,10 @@ namespace MeterReaderClient
                     Notes = "This is our test"
                 };
 
-                //for (var x = 0; x < 5; ++x)
-                //{
-                //    pkt.Readings.Add(await _factory.Generate(customerId));
-                //}
+                for (var x = 0; x < 5; ++x)
+                {
+                    pkt.Readings.Add(await _factory.Generate(customerId));
+                }
 
                 var result = await Client.AddReadingAsync(pkt);
                 if (result.Success == ReadingStatus.Success)
